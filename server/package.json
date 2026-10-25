@@ -1,0 +1,33 @@
+{
+  "name": "deadlock-items",
+  "version": "0.0.1",
+  "description": "An API Project for providing stats for deadlock items.",
+  "keywords": [
+    "deadlock",
+    "items",
+    "nodejs",
+    "node",
+    "stats"
+  ],
+  "license": "ISC",
+  "author": "Shaun Porter",
+  "type": "module",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "@types/pg": "^8.23.1",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
+  }
+}
